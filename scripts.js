@@ -60,8 +60,7 @@ let concatenateStringsArrow = (str1, str2) => str1 + " " + str2;
 
 console.log('call addTwoNums(2,2)', addTwoNums(2,2));
 
-
-
+console.log('concatenateStrings("taco,"cat)', concatenateStrings("taco", "cat"));
 
 
 
