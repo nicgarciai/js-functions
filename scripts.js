@@ -18,7 +18,7 @@ function concatenateStrings(str1, str2) {
 // TO DO
 
 function compareToHundred(number){
-    if(compareNum >= 100) {
+    if(number >= 100) {
         return number + " is 100 or greater";
     } else {
         return number + " is less than 100";
@@ -49,10 +49,14 @@ let quizAnswer = function(answer){
 // name the variable addTwoNumsArrow
 // TO DO
 
+let addTwoNumsArrow = (num1, num2) => num1 + num2;
+
 
 // For box five, re-write the second standard function in the arrow function syntax
 // name the variable concatenateStringsArrow
 // TO DO
+
+let concatenateStringsArrow = (str1, str2) => str1 + " " + str2;
 
 
 
