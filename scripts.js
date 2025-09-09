@@ -58,6 +58,7 @@ let addTwoNumsArrow = (num1, num2) => num1 + num2;
 
 let concatenateStringsArrow = (str1, str2) => str1 + " " + str2;
 
+console.log('call addTwoNums(2,2)', addTwoNums(2,2));
 
 
 
